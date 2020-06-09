@@ -1,0 +1,230 @@
+body {
+
+  background-color: rgb(243, 243, 243);
+
+}
+#main-container{
+  margin: 80px auto;
+  width: 99%;
+}
+#main-container2{
+  margin: 80px auto;
+  width: 99%;
+}
+#main-container1{
+
+  margin: 80px auto;
+  width: 800px;
+  
+}
+#main-container3{
+
+  margin: 80px auto;
+  width: 99%;
+  
+}
+.id{
+  background-color: #d2d600;
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+.pre{  
+  width: 250px;
+}
+.left{
+  text-align: left;
+}
+
+.table{
+background-color: white;
+text-align: center;
+  font-family: Arial;
+  /*border-collapse: collapse;*/
+  
+  width: 100%;
+  overflow-y: scroll;
+}
+th,td{
+  padding: 5PX;
+  border: solid 1px rgba(0, 0, 0, 0);
+  
+}
+.name, .ubi, .zone,.type, .ic, .tc, .ext, .edi, .eli, .ind, .pre, .año{
+  background-color: #00a4d6;
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+.name{
+  width: 10%;
+}
+.ubi{
+  width: 15%;
+}
+.ext{
+  width: 15%;
+}
+
+.edi1{
+  width: 10px;
+}
+.edi2{
+  background-color: #00a4d6;
+  border-bottom: solid 5px #0F362D;
+  color: rgba(255, 255, 255, 0);
+  width: 250px;
+}
+.edi3{
+  background-color: #00a4d6;
+  border-bottom: solid 5px #0F362D;
+  color: white; 
+  width: 40px;
+  
+}
+.año{
+  width: 50px;
+}
+tr:nth-child(even){
+  background-color: #ddd;
+}
+.hover:hover{
+  background-color: #e9eb76;
+}
+tr:hover{
+  background-color:  rgb(207, 227, 235);
+}
+.ed{
+  border: 0;
+  display: left;
+  margin: 20px auto;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 12.3px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 35px;
+  text-align: left;
+  border: 2px solid  lightblue;
+  width: 140px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.25s;
+  ;background-color: rgb(173, 230, 192) ;
+  cursor: pointer;
+  border: 2px solid rgb(173, 230, 192);   
+}
+.ed:focus{
+  background: rgb(135, 250, 179);
+  border: 2px solid rgb(135, 250, 179);
+  text-decoration: none;
+}
+.ed1{
+  border: 0;
+  display: left;
+  margin: 20px auto;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 12.3px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 35px;
+  text-align: left;
+  border: 2px solid  lightblue;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.25s;
+  ;background-color: rgb(173, 230, 192) ;
+  cursor: pointer;
+  border: 2px solid rgb(173, 230, 192);   
+}
+.ed1:focus{
+  background: rgb(135, 250, 179);
+  border: 2px solid rgb(135, 250, 179);
+  text-decoration: none;
+}
+
+.ed3{
+  border: 0;
+  display: left;
+  margin: 20px auto;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 12.3px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 35px;
+  text-align: left;
+  border: 2px solid  lightblue;
+  width: 120px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.25s;
+  ;background-color: rgb(173, 230, 192) ;
+  cursor: pointer;
+  border: 2px solid rgb(173, 230, 192);   
+}
+.ed3:focus{
+  background: rgb(135, 250, 179);
+  border: 2px solid rgb(135, 250, 179);
+  text-decoration: none;
+}
+.el{
+  border: 0;
+  display: left;
+  margin: 20px auto;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 12.3px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 35px;
+  text-align: left;
+  border: 2px solid  lightblue;
+  width: 120px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.25s;
+  ;background-color: rgb(238, 64, 64) ;
+  cursor: pointer;
+  border: 2px solid rgb(238, 64, 64);   
+}
+.el:focus{
+  background: rgb(204, 36, 36);
+  border: 2px solid rgb(204, 36, 36);
+  text-decoration: none;
+}
+
+.in{
+  border: 0;
+  display: left;
+  margin: 20px auto;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 12.2px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 35px;
+  text-align: left;
+  border: 2px solid  lightblue;
+  width: 177px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.25s;
+  ;background-color: rgb(64, 168, 238) ;
+  cursor: pointer;
+  border: 2px solid rgb(64, 168, 238);   
+}
+.in:focus{
+  background: rgb(19, 81, 196);
+  border: 2px solid rgb(19, 81, 196);
+  text-decoration: none;
+}
+
+
+

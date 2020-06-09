@@ -1,0 +1,110 @@
+body, html{
+    height: 100%;
+    
+}
+
+body{
+    margin: 0 ;
+    padding: 0;
+    background: url(./bicicdmx.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.form-box1{
+    width: 300px;
+    padding: 40px;
+    background-color: rgba(223, 221, 220, .95) ;
+    text-align: center;
+    border-radius: 5%;
+
+}
+
+
+.form-title{
+    color: rgb(82, 82, 82);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-box1 input[type="text"],
+.form-box1 input[type="text"],
+.form-box1 input[type="number"],
+.form-box1 input[type="date"],
+.form-box1 input[type="email"],
+.form-box1 input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid  lightskyblue;
+    width: 200px;
+    outline: none;
+    color: rgb(82, 82, 82);
+    border-radius: 15px;
+    transition: 0.25s;
+}
+
+.form-box1 input[type="text"]:focus,
+.form-box1 input[type="text"]:focus,
+.form-box1 input[type="number"]:focus,
+.form-box1 input[type="date"]:focus,
+.form-box1 input[type="email"]:focus,
+.form-box1 input[type = "password"]:focus{
+    width: 280px;
+    border-color: white;
+    background-color: silver;
+    color: rgb(255, 255, 255);
+}
+.pass{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid  lightskyblue;
+    width: 200px;
+    outline: none;
+    color: rgb(82, 82, 82);
+    border-radius: 15px;
+    transition: 0.25s;
+
+}
+.pass:focus{
+    width: 280px;
+    border-color: white;
+    background-color: silver;
+    color: rgb(255, 255, 255);
+}
+
+.form-box1 button[type = "submit"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid  lightblue;
+    width: 150px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    ;background-color: lightblue ;
+    cursor: pointer;
+    border: 2px solid lightblue;
+}
+
+.form-box1 button[type = "submit"]:hover{
+    background: lightskyblue;
+    border: 2px solid lightskyblue;
+}
